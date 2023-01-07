@@ -30,7 +30,8 @@ When open the code in the browser the resulting analysis should look similar to 
 ### Screenshot
 This is the screenshot of the my results: 
 <img width="1440" alt="Screenshot 2023-01-04 at 23 36 49" src="https://user-images.githubusercontent.com/70776430/210672292-78756226-a63c-4a30-b420-ea7ce5f7ff3f.png">
-
+Fixing display 
+ <img width="1191" alt="Screenshot 2023-01-07 at 21 55 14" src="https://user-images.githubusercontent.com/70776430/211171703-ce9c17b8-9858-47aa-a8a8-f9d58e215083.png">
 
 ### Licence
 Licensed under the MIT
