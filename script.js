@@ -145,11 +145,15 @@ var finances = [
   console.log('Total: $' + num)
   console.log('Average Change: $' + average.toFixed(2)); // showing the total average of profit/loss changes to 2 decimal points
 
+  var greatestDecrease = [];
+  var greatestIncrease = [];
+
   for(i = 0; i < combined.length; i++){
     if(combined[i][2] === highest){
-      console.log("Greatest Increase in Profits: " + combined[i]); // The greatest increase in profits (date and amount) over the entire period.
+        greatestIncrease = combined[i];  
     } else if (combined[i][2] === lowest){
-      console.log("Greatest Decrease in Profits: " + combined[i]);
+        greatestDecrease = combined[i];
     }
   }
-  
+  console.log("Greatest Increase in Profits: " + greatestIncrease[0] + " ($" + greatestIncrease[1] + ")"); // The greatest increase in profits (date and amount) over the entire period.
+  console.log("Greatest Decrease in Profits: " + greatestDecrease[0] + " ($" + greatestDecrease[1] + ")"); // The greatest decrease in losses (date and amount) over the entire period.
