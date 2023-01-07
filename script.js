@@ -108,4 +108,20 @@ var finances = [
     ['Feb-2017', 671099]
   ];
   
-  
+  var totalnumberOfMonths = 0;
+  var numberOnly = [];
+  var num = 0;
+  var changes = [];
+
+// find the number of months?
+//use a for loop and +1 to the total of the months till the end of the arr 
+// this in for loop i also able to get total profit/loss
+   //by adding all the numbers into another array and go through the new array and add the number up and save it into another var
+
+  for (let i = 0; i < finances.length; i++) {
+    totalnumberOfMonths = totalnumberOfMonths + 1;
+    const monthAndIncome = finances[i][1];
+    numberOnly.push(monthAndIncome);
+    num += monthAndIncome
+    changes[i - 1] = numberOnly[i] - numberOnly[i - 1]; // Calculate the change in profit/loss for each month
+  }
