@@ -125,3 +125,9 @@ var finances = [
     num += monthAndIncome
     changes[i - 1] = numberOnly[i] - numberOnly[i - 1]; // Calculate the change in profit/loss for each month
   }
+
+    // Calculate the average change in profit/loss
+   //"for-each" loop. It is used to iterate over the elements in an array or other iterable object, 
+  //  such as a list or set.
+  
+  var averageNumber = 0;
