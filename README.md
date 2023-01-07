@@ -1,5 +1,5 @@
 # Console-Finances
-creating code for analyzing the financial records of a company. I have been provided with a financial dataset file.
+This repo using what I learned in Javascript fundamentals to analyzing the financial records of a company in a real-world problems. I have been provided with a financial dataset file.
 ## Description
 Write JavaScript code that analyzes the records to calculate each of the following:
 
@@ -28,6 +28,9 @@ When open the code in the browser the resulting analysis should look similar to 
   ```
 
 ### Screenshot
+This is the screenshot of the my results: 
 <img width="1440" alt="Screenshot 2023-01-04 at 23 36 49" src="https://user-images.githubusercontent.com/70776430/210672292-78756226-a63c-4a30-b420-ea7ce5f7ff3f.png">
 
 
+### Licence
+Licensed under the MIT
