@@ -131,3 +131,18 @@ var finances = [
   //  such as a list or set.
   
   var averageNumber = 0;
+  changes.forEach(changes => {averageNumber += changes});
+  let average = parseFloat(averageNumber / changes.length); 
+  var combined = finances.map((value,index) => [value[0], value[1], changes[index-1]]);
+  //console.log(combined);
+  
+  const highest = changes.reduce((a,b) => Math.max(a,b)); // 1926159
+  const lowest = changes.reduce((a,b) => Math.min(a,b)); //-2196167
+
+  console.log('Financial Analysis');
+  console.log('-------------------------');
+  console.log('Total Months: ' + totalnumberOfMonths)
+  console.log('Total: $' + num)
+  console.log('Average Change: $' + average.toFixed(2)); // showing the total average of profit/loss changes to 2 decimal points
+
+  
