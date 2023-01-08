@@ -25,8 +25,10 @@ When open the code in the browser the resulting analysis should look similar to 
   Average  Change: $-2315.12
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
-  ```
+```
 
+### Usage
+You can accessed the asalysis from this link: https://lisaevermore.github.io/Console-Finances/.
 ### Screenshot
 This is the screenshot of the my results: 
 <img width="1440" alt="Screenshot 2023-01-04 at 23 36 49" src="https://user-images.githubusercontent.com/70776430/210672292-78756226-a63c-4a30-b420-ea7ce5f7ff3f.png">
